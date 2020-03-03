@@ -1,0 +1,99 @@
+// Hyperwallet classes that need to have tailwindcss classes applied to them
+
+// Hyperwallet Payee Verification Drop-In UI Classes can be found at:
+// https://portal.hyperwallet.com/content/drop-in-uis/v1/payee-verification/styling
+
+.hw-parent {
+    @apply font-body;
+}
+
+.hw-form-user {
+    @apply pt-4 pl-8;
+}
+
+.hw-containers {
+    @apply pb-2;
+}
+
+.hw-field-groups {
+    @apply items-start pb-4;
+}
+
+.hw-field-headers {
+    @apply text-3xl font-semibold font-banner;
+}
+
+.hw-file-instructions {
+    @apply pl-4 text-lg font-normal; 
+}
+
+.hw-fields {
+    @apply my-2;
+}
+
+.hw-fields label {
+    @apply block font-semibold border-solid border-black;
+}
+
+.hw-input[type=text] {
+    @apply shadow appearance-none py-2 px-3 w-3/4 border border-solid border-gray-400 rounded-sm bg-gray-200;
+}
+
+.hw-input[type=tel] {
+    @apply shadow appearance-none py-2 px-3 w-1/4 border border-solid border-gray-400 rounded-sm bg-gray-200;
+}
+.hw-date {
+    @apply py-1 px-4 rounded-md border-primary-light border bg-white;
+}
+
+.hw-date-container {
+    @apply flex flex-row items-baseline;
+}
+
+.hw-date-field-container:first-child {
+    @apply ml-0;
+}
+
+.hw-date-field-container {
+    @apply mx-4;
+}
+
+.hw-select {
+    @apply py-1 px-2 rounded-md border-gray-300 border bg-white;
+}
+
+.hw-field-confirm-button {
+    @apply py-2 px-2 bg-highlight-dark text-white text-xl font-semibold tracking-wide border-2 rounded-md;
+}
+
+.hw-field-ok-button {
+    @apply hw-field-confirm-button my-4 px-2 text-lg;
+}
+
+.hw-field-confirm-button:hover {
+    @apply bg-highlight;
+}
+
+.hw-breadcrumb-container {
+    @apply bg-highlight pr-0;
+}
+
+.hw-breadcrumb-groups {
+    @apply pb-4
+}
+
+.hw-breadcrumb-headers {
+    @apply pl-2 text-white text-4xl font-extrabold;
+}
+
+.hw-breadcrumb-items {
+    @apply pl-8 text-lightGray-dark text-xl;
+}
+
+.hw-breadcrumb-items:hover {
+    @apply bg-highlight-light;
+}
+
+.hw-error-message {
+    @apply text-red-500 text-lg font-semibold;
+}

@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import 'hw_styles.pcss';
+@import 'animations.pcss';
+@tailwind utilities;
